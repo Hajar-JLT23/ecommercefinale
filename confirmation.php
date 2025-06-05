@@ -16,7 +16,7 @@ foreach ($_SESSION['panier'] as $quantite) {
 // Connexion à la base de données
 $servername = "localhost";
 $username = "root"; 
-$password = "123ML@#jklhhh";
+$password = "";
 $dbname = "hacha_luxury";
 
 try {
