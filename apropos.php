@@ -12,7 +12,7 @@ foreach ($_SESSION['panier'] as $quantite) {
 
 $servername = "localhost";
 $username = "root"; 
-$password = "123ML@#jklhhh";
+$password = "";
 $dbname = "hacha_luxury";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
