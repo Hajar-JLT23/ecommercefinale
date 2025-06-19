@@ -15,7 +15,7 @@ foreach ($_SESSION['panier'] as $quantite) {
 // Connexion à la base de données
 $servername = "localhost";
 $username = "root"; 
-$password = "123ML@#jklhhh"; //ici faut mette son Mot de passe , puisque c'est un repostory public on a décidé de pas mettre notre mot de passe SQL vsible//
+$password = "";
 $dbname = "hacha_luxury";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
